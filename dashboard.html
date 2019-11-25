@@ -25,42 +25,61 @@ limitations under the License.
   <body>
 
     <div id="dashboard">
+
+        <div id="backgroundContent">
+            <img src="images/IMG_0551.JPG"/>
+        </div>
+
       <div id="infoPanel">
-         
-        <div id="commute" class="info-entry">
-          <div id="trafficTravel" class="info-heading">Travel time from <span id="trafficStart"></span> to <span id="trafficDestination"></span> <span id="trafficTravelTime"></span></div>
-          <div id="delay">Includes a delay of <span id="trafficDelay"></span> minutes</div>
-        </div>
 
-        <div id="clock" class="info-entry">Current Time
-          <span id="clockTime" class="bold-time"></span>
-        </div>
+        <div id="leftPanel" class="panel">
+            <div id="commute" class="info-entry">
+                <div id="trafficTravel" class="info-heading">Travel time from <span id="trafficStart"></span> to <span id="trafficDestination"></span> <span id="trafficTravelTime"></span></div>
+                <div id="delay">Includes a delay of <span id="trafficDelay"></span> minutes</div>
+              </div>
 
-        <div id="nextTrains" class="info-entry">
-          <div  class="info-heading">Next trains from <span id="trainOrigin"></span></div>
-          <div id="nextTrain0" class="train">
-            <span class="nextTrainScheduleTime"></span>
-            <div class="direction"> To 
-              <span class="nextTrainDirection"></span>
-            </div>
-            <span class="name">Name 
-              <span class="nextTrainName"></span>
-            </span>
-            <span class="nextTrainActualTime"> 
-              <span class="nextTrainActualTimeValue"></span>
-              <span class="noRealtime"></span>
-            </span>
-          </div>
-        </div>
-
-        <div id="weather">
+              <div id="weather">
           
+                </div>
         </div>
+
+        <div id="centerPanel" class="panel">
+            <div id="clock" class="info-entry">Current Time
+                <span id="clockTime" class="bold-time"></span>
+              </div>
+        </div>
+
+        <div id="rightPanel" class="panel">
+            <div id="nextTrains" class="info-entry">
+                <div  class="info-heading">Next trains from <span id="trainOrigin"></span></div>
+                <div id="nextTrain0" class="train">
+                  <span class="nextTrainScheduleTime"></span>
+                  <div class="direction"> To 
+                    <span class="nextTrainDirection"></span>
+                  </div>
+                  <span class="name">Name 
+                    <span class="nextTrainName"></span>
+                  </span>
+                  <span class="nextTrainActualTime"> 
+                    <span class="nextTrainActualTimeValue"></span>
+                    <span class="noRealtime"></span>
+                  </span>
+                </div>
+              </div>
+        </div>
+         
+        
+
+        
+
+        
+
+        
         
       </div>
 
       <div id="contentPanel">
-      <img src="images/IMG_0551.JPG"/>
+        &nbsp;
       </div>
 
       <pre id="debug"></pre>
